@@ -1,16 +1,17 @@
 h1 a {
-    color: #C25100;
-    font-family: 'Lobster';
+    color: rgb(57, 65, 85);
+    font-family: 'Chilanka';
+    text-shadow: 2px 2px rgb(139, 139, 139);
 }
 
 h2 a {
-    color: #307b27;
-    font-family: Helvetica;
-    text-decoration: underline;
+    color: #143b85;
+    font-family: Chilanka;
+    font-weight: bold;
 }
 
 body {
-    background-color: #d1e5fc;
+    background-color: #ffffff;
 }
 
 .page-header {
@@ -30,7 +31,7 @@ body {
 }
 
 h1, h2, h3, h4 {
-    font-family: 'Lobster', cursive;
+    font-family: 'Chilanka', cursive;
 }
 
 .save {
@@ -41,10 +42,17 @@ h1, h2, h3, h4 {
     width: 100%;
 }
 
-.top-menu, .top-menu:hover, .top-menu:visited {
-    color: #ffffff;
+.top-menu, .top-menu:hover {
+    color: #e2e2e2;
     float: right;
-    font-size: 26pt;
+    font-size: 15pt;
+    margin-right: 20px;
+}
+
+.top-menu:visited {
+    color: #777777;
+    float: right;
+    font-size: 15pt;
     margin-right: 20px;
 }
 
@@ -59,7 +67,11 @@ h1, h2, h3, h4 {
 }
 
 .date {
-    color: #0dc285;
+    color: #767c83;
     font-size: 15px;
     font-weight: bold;
+}
+
+.comment {
+    margin: 20px 0px 20px 20px;
 }
